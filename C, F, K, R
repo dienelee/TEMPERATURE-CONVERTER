@@ -9,7 +9,7 @@ def convert_temperature(value, from_unit, to_unit):
     elif from_unit == "R":
         celsius = (value - 491.67) * 5/9
     else:
-        return "Invalid"
+        return "NUH UH"
 
     # Convert Celsius to target unit
     if to_unit == "C":
@@ -21,7 +21,7 @@ def convert_temperature(value, from_unit, to_unit):
     elif to_unit == "R":
         return (celsius + 273.15) * 9/5
     else:
-        return "Invalid output unit"
+        return "NUH UH"
 
 print("✮⋆˙Temperature Converterᯓᡣ𐭩")
 print("Units: C = Celsius, F = Fahrenheit, K = Kelvin, R = Rankine")
@@ -34,4 +34,4 @@ try:
     result = convert_temperature(value, from_unit, to_unit)
     print(f"{value}°{from_unit} = {result:.2f}°{to_unit}")
 except:
-    print("Please enter a valid number.")
+    print("NAAAUUURRR!")
